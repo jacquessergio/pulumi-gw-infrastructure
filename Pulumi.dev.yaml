@@ -4,6 +4,7 @@ config:
   gw-infrastructure:domain_name: apidev.lpsbr.com
   gw-infrastructure:endpoint_type: REGIONAL
   gw-infrastructure:environment: dev
+  gw-infrastructure:action: up
   gw-infrastructure:resource_name: gw-custom-domain
   gw-infrastructure:security_policy: TLS_1_2
   pulumi:template: gw-infrastructure
