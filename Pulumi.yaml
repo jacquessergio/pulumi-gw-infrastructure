@@ -1,0 +1,4 @@
+name: gw-infrastructure
+runtime: nodejs
+description: Create the necessary infrastructure for the API Gateway
+main: infrastructure/

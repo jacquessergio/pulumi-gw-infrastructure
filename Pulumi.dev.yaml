@@ -1,0 +1,9 @@
+config:
+  aws:region: us-east-1
+  gw-infrastructure:certificate_arn: arn:aws:acm:us-east-1:001849918413:certificate/0f9302cc-85dd-4ccf-a00c-e6246495aa39
+  gw-infrastructure:domain_name: apidev.lpsbr.com
+  gw-infrastructure:endpoint_type: REGIONAL
+  gw-infrastructure:environment: dev
+  gw-infrastructure:resource_name: gw-custom-domain
+  gw-infrastructure:security_policy: TLS_1_2
+  pulumi:template: gw-infrastructure
